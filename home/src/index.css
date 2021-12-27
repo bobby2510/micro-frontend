@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin:0px;
+}
+
+
+.container {
+  font-size: 3rem;
+  margin:0px auto;
+  max-width: 1000px;
+}
+
+.container-body 
+{
+  height: calc(100vh - 142.4px);
+  overflow-y: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.container-body 
+{
+  height: calc(100vh - 142.4px);
+  font-size: 2rem;
+  overflow-y: scroll;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.flex-item-one 
+{
+  flex-grow: 1;
+}
+.heading 
+{
+  background-color: darkslategrey;
+  color:white;
+  text-align: center;
+  padding:8px;
+
+}
